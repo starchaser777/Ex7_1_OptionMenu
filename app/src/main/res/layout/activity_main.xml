@@ -21,6 +21,7 @@
             android:hint="회전각도 입력: " />
         <EditText
             android:id="@+id/editDegree"
+            android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -31,6 +32,7 @@
         android:orientation="vertical"
         android:gravity="center">
         <ImageView
+            android:id="@+id/imgV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/hallasan" />
